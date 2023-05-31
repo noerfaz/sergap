@@ -1,0 +1,23 @@
+body{
+    background-color: #131415;
+}
+h1{
+    font-weight: bold;
+}
+h3{
+    text-transform:capitalize;
+    font-size: 1.5rem;
+}
+.btn{
+    font-weight: bold !important;
+    border-radius: 8px !important;
+}
+.bg-dark-down{
+    background-color: #131415;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.new-line {
+    white-space: pre-line;
+  }
