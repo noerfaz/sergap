@@ -59,7 +59,7 @@ class HomeController extends Controller
 
         return DataTables::of($data)
             ->editColumn('created_at', function($e){
-                return Carbon::parse($e->created_at)->isoFormat('DD MMM YYY HH:mm');
+                return Carbon::parse($e->created_at)->timezone(zona_waktu())->isoFormat('DD MMM YYY HH:mm');
             })
             ->make(true);
     }
